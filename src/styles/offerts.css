@@ -1,0 +1,42 @@
+
+.offert-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.offert-section .offert-item {
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid rgb(174, 174, 174, .2);
+    padding: .5rem .5rem 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.offert-item img {
+    object-position: center;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+
+.offert-item .offert-price {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    font-size: .8rem;
+    border-radius: 50px;
+    margin: 0 10px 0px;
+    z-index: 10;
+    color: white;
+    background-color: var(--primary);
+}
+
+.offert-section .offert-item:first-child {
+    border-left: none;
+}

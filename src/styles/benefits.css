@@ -1,0 +1,37 @@
+
+.benefits {
+    background-color: white;
+    margin: 1rem 350px;
+}
+
+.benefits .benefits-body {
+    display: flex;
+    gap: .5rem;
+    padding: 1.5rem 100px;
+}
+
+
+.benefits .benefits-item {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.benefits .benefits-item .benefits-icon {
+    aspect-ratio: 1/1;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.benefits-body .benefits-item .benefits-title {
+    color: black;
+    font-weight: 700;
+    font-size: large;
+}
+
+.benefits-body .benefits-item .benefits-content {
+    color: var(--light);
+    font-size: small;
+}

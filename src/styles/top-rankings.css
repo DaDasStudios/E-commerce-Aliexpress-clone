@@ -1,0 +1,90 @@
+
+.top-rankings {
+    position: relative;
+}
+
+.top-rankings .top-rankings-view-more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--light);
+    font-size: .85rem;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.top-rankings .top-rankings-view-more:hover {
+    color: var(--primary);
+}
+
+.ranking-set {
+    position: relative;
+    background-color: var(--lightest);
+    width: fit-content;
+    padding: .8rem .8rem 5px;
+    border-radius: 8px;
+}
+
+.ranking-set::after {
+    position: absolute;
+    content: 'Top Ideal 2020';
+    top: 8px;
+    right: 0;
+    background-color: #F4E2CF;
+    font-size: small;
+    font-weight: bold;
+    color: #CB8E59;
+    padding: 3px 10px;
+}
+
+.ranking-set:first-child {
+    margin-left: .75rem;
+}
+
+.ranking-set:last-child {
+    margin-right: .75rem;
+}
+
+.ranking-set .ranking-set-body {
+    display: flex;
+}
+
+.ranking-set .ranking-set-header {
+    text-overflow: clip;
+    font-weight: bolder;
+    font-size: .85rem;
+}
+
+.ranking-set .ranking-set-followers {
+    font-size: .65rem;
+    color: var(--light);
+    margin-bottom: .5rem;
+}
+
+.ranking-set-body .top-ranking-item  {
+    position: relative;
+}
+
+.ranking-set-body .top-ranking-item .top-ranking-price {
+    --space: .2rem;
+    position: absolute;
+    bottom: var(--space);
+    left: 0;
+    right: 0;
+    background-color: var(--white-transparent);
+    color: var(--grey);
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: var(--space);
+}
+
+.ranking-set-body .top-ranking-item .top-ranking-flag {
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.ranking-set-body .top-ranking-item .top-ranking-flag img {
+    height: 25px;
+}

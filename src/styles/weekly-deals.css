@@ -1,0 +1,68 @@
+
+.weekly-deals {
+    position: relative;
+}
+
+.weekly-deals-header {
+    display: flex;
+    align-items: center;
+    padding: .6rem;
+}
+
+.weekly-deals-header .weekly-deals-title {
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.weekly-deals-page {
+    display: flex;
+    gap: .4rem;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.weekly-deals-page .weekly-deals-item {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.weekly-deals-item .weekly-deals-discount-body {
+    display: flex;
+}
+
+.weekly-deals-item .weekly-deals-discount-body .weekly-deals-discount {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--discount);
+    color: white;
+    padding: 0 5px;
+    margin-bottom: 3px;
+}
+
+.weekly-deals-item .weekly-deals-discount-body .weekly-deals-discount .weekly-deals-discount-icon {
+    height: 8px;
+}
+
+.weekly-deals-item .weekly-deals-discount-body .weekly-deals-last-price {
+    text-decoration: line-through;
+    color: var(--light);
+    display: inline;
+    margin-left: .5rem;
+}
+
+.weekly-deals-view-more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--light);
+    font-size: .85rem;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.weekly-deals-view-more:hover {
+    color: var(--primary);
+}

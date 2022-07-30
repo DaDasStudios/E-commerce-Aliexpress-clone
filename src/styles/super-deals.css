@@ -1,0 +1,46 @@
+
+.super-deals-content {
+    margin: 0 5px;
+}
+
+.super-deals-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.super-deals-header .super-deals-icon {
+    color: var(--primary);
+    font-size: larger;
+}
+
+.super-deals-header .super-deals-title {
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.super-deals-page {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.super-deals-page .super-deals-item {
+    position: relative;
+}
+
+.super-deals-item .super-deals-discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--terciary);
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+    border-bottom-right-radius: 10px;
+}
+
+.super-deals-item .super-deals-sold {
+    font-size: small;
+}

@@ -1,0 +1,21 @@
+.cart-ball {
+    position: relative;
+}
+
+.cart-ball::after {
+    --items: '0';
+    position: absolute;
+    content: var(--items);
+    top: 0;
+    right: -5px;
+    background-color: var(--primary);
+    color: white;
+    width: 20px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-size: small;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
