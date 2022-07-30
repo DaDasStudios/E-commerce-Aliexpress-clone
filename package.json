@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DaDasStudios.github.io/aliexpress-clone-typescript-react",
+  "homepage": "https://dadasstudios.github.io/aliexpress-clone-typescript-react/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
