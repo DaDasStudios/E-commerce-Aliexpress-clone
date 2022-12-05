@@ -8,7 +8,7 @@ To do this, I implemented the concepts  of below:
 This project joins all the main concepts of a **e-commerce** real project:
 
 * A custom CSS for a better management of the styles in order to clone the apperience of _Aliexpress_ exactly like it looks like
-* The folder structure is oriented to a real project, so that is made up of a recursive structe inside the folders
+* The folder structure is oriented to a real project, so that is made up of a recursive structure inside the folders
 * An interactive and dynamic GUI with a bunch of componenets separed by folders according their type
 * Usage of __Typescript__ in order to avoid type-errors and, instead handle the data-flow of the project properly
 * Consuming a **REST API** to get the products attributes like it was a common e-commerce webpage
@@ -53,5 +53,5 @@ if not used, but the usage is available.
 ```
 
 ## Visit the page
-You go to the webpage via the `gh-pages` branch, or just click on the link:
+You can go to the webpage via the `gh-pages` branch, or just click on the link:
 [Take a look](https://aliexpress-clone-typescript-react.vercel.app)
